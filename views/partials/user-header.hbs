@@ -1,0 +1,56 @@
+<header id="header" class="fixed-top">
+  <div
+    class="container-fluid d-flex justify-content-between align-items-center"
+  >
+    <a href="/" class="logo">
+      <img src="assets/img/logo.png" alt="IHRD logo" class="img-fluid" />
+    </a>
+    <h1 class="logo me-auto me-lg-0">
+      <a class="d-none d-sm-none d-md-block d-lg-block" href="/">Technical
+        Higher Secondary School Puthuppally</a>
+      <a class="d-block d-sm-block d-md-none d-lg-none" href="/">THSS
+        Puthuppally</a>
+    </h1>
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li>
+          <a href="/" class="{{#if home_active}}active{{/if}}">Home</a>
+        </li>
+        <li>
+          <a href="/about" class="{{#if about_active}}active{{/if}}">About</a>
+        </li>
+        <li>
+          <a href="/admissions" class="{{#if admissions_active}}active{{/if}}">Admissions</a>
+        </li>
+        <li>
+          <a href="/faculties" class="{{#if faculties_active}}active{{/if}}">Faculties</a>
+        </li>
+        <li>
+          <a href="/facilities" class="{{#if facilities_active}}active{{/if}}">Facilities</a>
+        </li>
+        <li>
+          <a href="/activity" class="{{#if activity_active}}active{{/if}}">Activities</a>
+        </li>
+        <li>
+          <a href="/alumni" class="{{#if alumni_active}}active{{/if}}">Alumni</a>
+        </li>
+        <li>
+          <a href="/achievements" class="{{#if achievements_active}}active{{/if}}">Achievements</a>
+        </li>
+        <li class="dropdownlist">
+          <button class="dropbtn {{#if gallery_active}}active{{/if}}">Gallery</button>
+          <div class="dropdownlist-content">
+            <a href="/imagegallery">Images</a>
+            <a href="/videogallery">Videos</a>
+          </div>
+        </li>
+        <li>
+          <a href="/contact" class="{{#if contact_active}}active{{/if}}">Contact</a>
+        </li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+    <!-- .navbar -->
+    <!--social links-->
+  </div>
+</header>

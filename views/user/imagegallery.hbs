@@ -1,0 +1,24 @@
+<main id="main">
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery" class="gallery">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Gallery</h2>
+            <br>
+          </div>
+          <div class="row gallery-container" data-aos="fade-up" data-aos-delay="200">
+
+            {{#each images}}
+            <div class="col-lg-4 col-md-6 gallery-item">
+              <div class="gallery-wrap">
+                <img src="{{this.image}}" class="img-fluid" alt="">
+              </div>
+            </div> 
+            {{/each}}
+
+          </div>
+        </div>
+      </section>
+      <!-- End Gallery Section -->
+    </main>
+    <!-- End #main -->
