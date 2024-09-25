@@ -103,6 +103,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  background-color: #141821;
 }
 
 #header.header-scrolled,
@@ -314,7 +315,7 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #040404;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -510,7 +511,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f3f5fa;
+  background-color: #141821;
 }
 
 .section-title {
@@ -560,6 +561,7 @@ section {
 .clients {
   padding: 12px 0;
   text-align: center;
+  background-color: #040404;
 }
 
 .clients img {
@@ -584,6 +586,9 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+.about{
+  background-color: #040404;
+}
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -770,6 +775,10 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+.skills{
+  background-color: #040404;
+}
+
 .skills .content h3 {
   font-weight: 700;
   font-size: 32px;
@@ -1102,7 +1111,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
   border-radius: 5px;
-  background: #fff;
+  background: #040404;
   transition: 0.5s;
   height: 100%;
 }
@@ -1193,6 +1202,14 @@ section {
 
 .team .member .social a+a {
   margin-left: 8px;
+}
+
+.team inner-page{
+  background-color: #070504;
+}
+
+#dev-info-bg{
+  background-color: #141821;
 }
 
 /*--------------------------------------------------------------
@@ -1485,7 +1502,7 @@ section {
   border-top: 3px solid #47b2e4;
   border-bottom: 3px solid #47b2e4;
   padding: 30px;
-  background: #fff;
+  background: #070504;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -1599,7 +1616,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #f3f5fa;
+  background: #070504;
   min-height: 40px;
   margin-top: 72px;
 }
@@ -1646,7 +1663,7 @@ section {
 
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #f3f5fa;
+  background: #141821;
   text-align: center;
   font-size: 15px;
   color: #444444;
@@ -1699,7 +1716,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background: #040404;
 }
 
 #footer .footer-top .footer-contact {
