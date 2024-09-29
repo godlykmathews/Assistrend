@@ -24,6 +24,9 @@ h5,
 h6 {
   font-family: "Jost", sans-serif;
 }
+p {
+  color: #fff;
+}
 
 /*--------------------------------------------------------------
 # Preloader
