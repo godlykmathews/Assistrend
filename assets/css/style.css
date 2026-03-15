@@ -1215,6 +1215,23 @@ section {
   background-color: #141821;
 }
 
+/* Inactive User */
+.team .member.inactive {
+  opacity: 0.5;
+  filter: grayscale(100%);
+  pointer-events: none;
+}
+
+.inactive-badge {
+  background: #dc3545;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
